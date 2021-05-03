@@ -4,7 +4,92 @@
     <title>Сенпай sushi</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <header>
+        <a class="link-logo" href="./index.html"
+          ><img class="icon-logo" src="img/logo-orange.png" alt="Logo"
+        /></a>
+        <ul class="menu">
+          <li class="menu__item">
+            <a href="index.html" class="menu__link">Главная</a>
+          </li>
+          <li class="menu__item">
+            <a href="about.html" class="menu__link">О нас</a>
+          </li>
+          <li class="menu__item">
+            <a href="catalog.html" class="menu__link">Каталог</a>
+          </li>
+          <li class="menu__item">
+            <a href="stock.html" class="menu__link">Акции</a>
+          </li>
+          <li class="menu__item">
+            <a href="delivery.html" class="menu__link">Доставка</a>
+          </li>
+          <li class="menu__item">
+            <a href="contact.html" class="menu__link">Контакты</a>
+          </li>
+        </ul>
+        <address>
+          <div class="location">
+            <p>
+              г. Киев,<br />
+              ул. Неизвестная, 1<br />
+            </p>
+          </div>
+          <div class="phone">
+            <p>
+              +38 (000) <span class="tel">123-4567</span>
+              <br />
+              +38 (000) <span class="tel">123-4567</span>
+            </p>
+          </div>
+        </address>
+        <a class="cart" href="/cart.html"></a>
+      </header>
+      <main class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-wrap">
+              <img src="img/sushi_main.jpg" alt="Image slider" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap">
+              <img src="img/sushi-slide2.jpg" alt="Image slider" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap">
+              <img src="img/sushi-5_1920.jpg" alt="Image slider" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap">
+              <img src="img/sushi-main-page.jpg" alt="Image slider" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap">
+              <img src="img/sushi-main.jpg" alt="Image slider" />
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </main>
+      <div class="page-name-block">
+        <span class="page-name-title">Сенпай</span>
+        <span class="page-name">Сенпай</span>
+      </div>
+      <div class="leaf"></div>
+      <div class="mint"></div>
+    </div>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>

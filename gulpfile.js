@@ -23,7 +23,7 @@ watcher.on("change", function(path, stats) {
   browserSync.reload();
 });
 
-watch(["src/sass/*.scss"], function(cb) {
+watch("src/sass/*.scss", function(cb) {
   // body omitted
    sassExt();
     cb();
